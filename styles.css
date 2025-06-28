@@ -1,7 +1,9 @@
-/* CSS BY YOUR NAME */
+/* CSS BY Susan Davis */
 
-/* IMPORTED FONTS*/
-/* IMPORT "INTER" FROM GOOGLE FONTS"
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Seymour+One&display=swap');
+
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -62,7 +64,7 @@ table {
     --font: "Inter", sans-serif;
 }
 
-/* GLOBAL STYLES (MOBILE FIRST (SMALL) */
+@media screen and (min-width: 400px){
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
@@ -74,6 +76,7 @@ table {
 }
 
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
+#Innovation
  {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
     height: 80vh;
@@ -85,6 +88,7 @@ table {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
+h1
  {
     content: "";
 
@@ -113,7 +117,7 @@ table {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: ease 1s ;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -139,9 +143,11 @@ table {
 .bar {
     animation: stepUp 1s ease-in-out forwards;
 }
-
+}
 
 /* MEDIA QUERIES (MEDIUM) */ 
+@media screen and (min-width: 800px){
+    
 
     #results {
         grid-template-columns: 1fr 1fr;
@@ -156,6 +162,7 @@ table {
     .bar-chart {
         width: 50%;
     }
-
+}
 
 /* MEDIA QUERIES (LARGE) */
+@media screen and (min-width: 1024px){}
