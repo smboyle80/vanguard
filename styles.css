@@ -98,6 +98,18 @@ h1
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
 }
+#grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+#grid-container > div {
+   text-align: center;
+   background: black;
+   border: 3px solid var(--charcoal);
+   padding: 20px;
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
